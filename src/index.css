@@ -1,0 +1,96 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #d9e7ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-bottom: 1.5rem;
+}
+
+.logo:hover {
+  color: #000;
+}
+
+/* flex center center page */
+.fcc-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #4a4a4a;
+  text-align: left;
+  display: block;
+  margin-bottom: 6px;
+  margin-left: 10px;
+}
+
+.input-field {
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  transition: border 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.primary-button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary-button:disabled {
+  background-color: #a6c8f0;
+  cursor: wait;
+}
+
+.primary-button:hover:not(:disabled) {
+  background-color: #357abf;
+}
+
+.secondary-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #4a90e2;
+  border: 2px solid #4a90e2;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.secondary-button:disabled {
+  color: #a6c8f0;
+  border-color: #a6c8f0;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background-color: #e6f0fa;
+  color: #357abf;
+  border-color: #357abf;
+}
