@@ -1,0 +1,83 @@
+.he {
+  position: sticky;
+  top: 0;
+  background: #1a1a1a;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 0.7rem 3.5rem;
+  z-index: 1000;
+  transition: background 0.25s ease, border-color 0.25s ease;
+  flex-wrap: wrap; /* allow buttons to wrap on smaller screens */
+}
+
+/* Buttons inside header */
+.he button {
+  background: transparent;
+  color: #ececec;
+  padding: 0.45rem 2rem;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: color 0.25s ease, background-color 0.25s ease,
+    transform 0.25s ease;
+  flex: 1 1 auto; /* allows buttons to shrink/grow */
+  min-width: 120px; /* prevents buttons from becoming too small */
+}
+
+/* Hover effect */
+.he button:hover {
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Active/Focused */
+.he button:active {
+  transform: translateY(0);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* --- Responsive header --- */
+
+/* Medium screens */
+@media (max-width: 1024px) {
+  .he {
+    gap: 2rem;
+  }
+
+  .he button {
+    padding: 0.35rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Small screens (mobile) */
+@media (max-width: 768px) {
+  .he {
+    gap: 1rem;
+  }
+
+  .he button {
+    padding: 0.3rem 1.2rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+  .he {
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .he button {
+    padding: 0.25rem 1rem;
+    font-size: 0.8rem;
+    flex: 1 1 100%; /* stack buttons full width */
+    text-align: center;
+  }
+}

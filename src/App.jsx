@@ -1,23 +1,18 @@
-import { useState } from "react";
+import { GlobalPopupProvider } from "./Pages/GlobalFunctions/GlobalPopup/GlobalPopupContext";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MainPage from "./Pages/Home/MainPage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <GlobalPopupProvider>
+      <BrowserRouter>
+        <Routes>
+          {/* Public Routes */}
+          <Route path="/" element={<MainPage />} />
+          <Route path="/home" element={<MainPage />} />
+        </Routes>
+      </BrowserRouter>
+    </GlobalPopupProvider>
   );
 }
 

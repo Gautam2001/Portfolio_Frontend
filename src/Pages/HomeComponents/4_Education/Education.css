@@ -1,0 +1,9 @@
+.ed-window {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8ff;
+  color: white;
+}
