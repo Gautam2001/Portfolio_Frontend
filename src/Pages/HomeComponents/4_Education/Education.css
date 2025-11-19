@@ -1,9 +1,129 @@
-.ed-window {
+.ed-container {
   width: 100%;
-  height: 100vh;
+  margin-top: 15px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.ed-window {
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #f8f8ff;
-  color: white;
+}
+
+.ed-timeline {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.ed-timeline-item {
+  display: grid;
+  grid-template-columns: 1fr 80px 1fr;
+  align-items: center;
+  position: relative;
+}
+
+/* LEFT + RIGHT general styling */
+.ed-side {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
+
+/* CARD */
+.ed-desc-card {
+  background: #fff;
+  height: 28vh;
+  width: 350px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.ed-desc-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Position / Title */
+.ed-position {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 8px 0;
+  text-align: center;
+}
+
+/* Institute */
+.ed-institute {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin: 5px 0 10px 0;
+  text-align: center;
+}
+
+/* Description */
+.ed-description {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.4;
+  margin: 8px 0;
+  text-align: center;
+}
+
+/* Year */
+.ed-year-left {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #888;
+  padding-left: 66%;
+}
+
+.ed-year-right {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #888;
+  padding-right: 66%;
+}
+
+/* CENTER LINE */
+.ed-center-line {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 62px 0;
+}
+
+.ed-center-line::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  top: 0;
+  bottom: 0;
+  background: #bdbdbd;
+}
+
+/* CIRCLE */
+.ed-circle {
+  width: 75px;
+  height: 75px;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid #bdbdbd;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ed-circle img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
 }

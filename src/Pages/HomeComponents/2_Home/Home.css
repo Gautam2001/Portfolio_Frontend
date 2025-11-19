@@ -8,9 +8,10 @@
   gap: 30px;
   position: relative;
   width: 100%;
-  height: calc(100vh - 52px);
+  height: calc(100vh - 56px);
   background-color: #18181a;
   color: #fff7f7;
+  box-sizing: border-box;
 }
 
 /* Left overlayed text */

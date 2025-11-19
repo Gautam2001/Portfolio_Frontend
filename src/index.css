@@ -3,7 +3,8 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Roboto, sans-serif;
-  background: #e8e8e8;
+  background: #f6f6f6;
+  color: #1a1a1a;
   height: 100%;
   width: 100%;
 }
@@ -91,4 +92,18 @@ html {
   background-color: #e6f0fa;
   color: #357abf;
   border-color: #357abf;
+}
+
+:root {
+  --timeline-line-color: #d1d1d1;
+  --timeline-node-border: #bdbdbd;
+  --card-bg: #fff;
+  --card-shadow: rgba(0, 0, 0, 0.08);
+  --card-shadow-hover: rgba(0, 0, 0, 0.12);
+  --text-primary: #555;
+  --text-secondary: #666;
+  --text-year: #888;
+  --section-padding: 40px;
+  --node-size: 70px;
+  --card-width: 320px;
 }

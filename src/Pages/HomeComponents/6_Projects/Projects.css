@@ -1,9 +1,110 @@
 .pr-window {
   width: 100%;
-  height: 100vh;
+  /* min-height: calc(100vh - 40px); */
+  padding: 0px 20px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #666;
-  color: white;
+  box-sizing: border-box;
+  /* background-color: #f9f9f9; */
+}
+
+.pr-container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.pr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Card Styling */
+.pr-card {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pr-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Front */
+.pr-card-front {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.pr-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pr-card-title-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Back / Hover overlay */
+.pr-card-back {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  color: #333;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: bottom 0.3s ease;
+  border-radius: 15px;
+}
+
+.pr-card:hover .pr-card-back {
+  bottom: 0;
+}
+
+.pr-card-desc {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.pr-card-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pr-card-link {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.pr-card-link:hover {
+  border-color: #1a73e8;
 }

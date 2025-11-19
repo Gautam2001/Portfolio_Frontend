@@ -15,14 +15,15 @@ const MainPage = () => {
   const { showPopup } = usePopup();
   const { portfolioApi } = useApiClients();
   const scrollContainerRef = useRef(null);
+
   const [loading, setLoading] = useState(false);
   const [portfolioData, setPortfolioData] = useState(null);
 
-  // Fetch API data one time
   const fetchPortfolioData = async () => {
     try {
       setLoading(true);
       const res = await portfolioApi.get("/portfolio/getAboutMe");
+
       if (res.data.status === "0") {
         setPortfolioData({
           home: res.data.aboutMe.myData,
@@ -51,48 +52,43 @@ const MainPage = () => {
     fetchPortfolioData();
   }, []);
 
+  if (loading || !portfolioData) {
+    return <div className="mp-loading">Loading Portfolio...</div>;
+  }
+
   const sectionComponents = {
-    Home: <Home />,
-    Experience: <Experience />,
-    Education: <Education />,
-    Skills: <Skills />,
-    Projects: <Projects />,
-    Certificates: <Certificates />,
-    Contact: <ContactUs />,
+    Home: <Home home={portfolioData.home} />,
+    Experience: <Experience experience={portfolioData.experience} />,
+    Education: <Education education={portfolioData.education} />,
+    Skills: <Skills skills={portfolioData.skills} />,
+    Projects: <Projects projects={portfolioData.projects} />,
+    Certificates: <Certificates certificates={portfolioData.certificates} />,
+    Contact: <ContactUs contact={portfolioData.contact} />,
   };
 
   return (
     <div className="mp-window" ref={scrollContainerRef}>
-      {/* If still loading, show loader */}
-      {loading && <div className="mp-loading">Loading Portfolio...</div>}
-
-      {/* Show Home section */}
-      {portfolioData?.sections?.includes("Home") && (
+      {/* Home Section */}
+      {portfolioData.sections.includes("Home") && (
         <section id="home" className="full-section">
-          <Home home={portfolioData.home} />
+          {sectionComponents["Home"]}
         </section>
       )}
 
-      {/* Show Header section sticky scroll */}
-      {portfolioData && <Header sections={portfolioData.sections} />}
+      {/* Sticky Header */}
+      <Header sections={portfolioData.sections} />
 
-      {/* Show other Sections */}
-      {portfolioData &&
-        portfolioData.sections
-          .filter((sec) => sec !== "Home")
-          .map((sec) => {
-            // normalize the id
-            const sectionId = sec.toLowerCase().replace(/\s+/g, "");
-            return (
-              <section
-                key={sec}
-                id={sectionId}
-                className={sec === "Skills" ? "half-section" : "full-section"}
-              >
-                {sectionComponents[sec]}
-              </section>
-            );
-          })}
+      {/* All Other Sections */}
+      {portfolioData.sections
+        .filter((sec) => sec !== "Home")
+        .map((sec) => {
+          const sectionId = sec.toLowerCase().replace(/\s+/g, "");
+          return (
+            <section key={sec} id={sectionId} className="section-block">
+              {sectionComponents[sec]}
+            </section>
+          );
+        })}
     </div>
   );
 };

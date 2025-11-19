@@ -4,8 +4,16 @@ import "./Header.css";
 const Header = ({ sections }) => {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+    const scrollContainer = document.querySelector(".mp-window"); // your scroll container
+    const headerOffset = 30; // or the height of your sticky header + extra margin
+
+    if (section && scrollContainer) {
+      // get the top relative to container
+      const sectionTop = section.offsetTop;
+      scrollContainer.scrollTo({
+        top: sectionTop - headerOffset,
+        behavior: "smooth",
+      });
     }
   };
 

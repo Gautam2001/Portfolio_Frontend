@@ -1,10 +1,163 @@
-.ex-window {
+.ex-container {
   width: 100%;
-  height: 100vh;
+  margin-top: 15px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.ex-timeline {
+  width: 90%;
+  margin: 35px auto;
+  position: relative;
   display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+/* Rows */
+.ex-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+/* For odd rows (snake effect) */
+.reverse-row {
+  flex-direction: row-reverse;
+}
+
+/* Horizontal line across row */
+.ex-line-horizontal {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #d1d1d1;
+  z-index: 1;
+  border-radius: 2px;
+}
+
+/* Node wrapper */
+.ex-node-wrapper {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Node (logo) */
+.ex-node {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #bdbdbd;
+  display: flex;
   justify-content: center;
-  /* background-color: #ececec; */
-  background-color: #e1e1e1;
-  color: #151515;
+  align-items: center;
+  top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ex-node img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+/* Card below node */
+.ex-card {
+  width: 295px;
+  max-width: 295px;
+  height: 245px;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ex-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Position / Title */
+.ex-position {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 8px 0;
+  text-align: center;
+}
+
+/* Company */
+.ex-company {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin: 5px 0 10px 0;
+  text-align: center;
+}
+
+/* Description */
+.ex-description {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.4;
+  margin: 8px 0;
+  text-align: center;
+}
+
+/* Year */
+.ex-year {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #888;
+  text-align: center;
+}
+
+/* Vertical line connecting rows */
+.ex-line-vertical {
+  position: absolute;
+  width: 3px;
+  height: 400px;
+  background: #d1d1d1;
+  top: 35px;
+  z-index: 0;
+}
+
+.ex-line-vertical.right {
+  right: -16px;
+}
+
+.ex-line-vertical.left {
+  left: -16px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .ex-row {
+    flex-wrap: wrap;
+  }
+  .reverse-row {
+    flex-direction: row;
+  }
+  .ex-node-wrapper {
+    width: 45%;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ex-node-wrapper {
+    width: 90%;
+    margin-bottom: 60px;
+  }
 }
