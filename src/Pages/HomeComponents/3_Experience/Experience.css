@@ -141,6 +141,30 @@
   left: -16px;
 }
 
+/* ---- ANIMATIONS ---- */
+
+.ex-animate {
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition-delay: var(--delay, 0s);
+}
+
+.visible.ex-animate {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Node subtle pop */
+.ex-node {
+  transform: scale(0.9);
+  transition: transform 0.5s ease-out;
+}
+
+.visible .ex-node {
+  transform: scale(1);
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .ex-row {

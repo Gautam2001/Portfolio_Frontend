@@ -5,8 +5,8 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   display: flex;
-  justify-content: center;
-  gap: 5%;
+  justify-content: space-around;
+  gap: 0%;
   padding: 0.7rem 3.5rem;
   z-index: 1000;
   transition: background 0.25s ease, border-color 0.25s ease;
@@ -17,7 +17,7 @@
 .he button {
   background: transparent;
   color: #ececec;
-  padding: 0.45rem 2rem;
+  padding: 0.45rem 1rem;
   border: none;
   font-size: 1rem;
   letter-spacing: 0.5px;
@@ -25,8 +25,8 @@
   border-radius: 6px;
   transition: color 0.25s ease, background-color 0.25s ease,
     transform 0.25s ease;
-  flex: 1 1 auto; /* allows buttons to shrink/grow */
-  min-width: 120px; /* prevents buttons from becoming too small */
+  flex: 1 1 auto;
+  min-width: 100px;
 }
 
 /* Hover effect */

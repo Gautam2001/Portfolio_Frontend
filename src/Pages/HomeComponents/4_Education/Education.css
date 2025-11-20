@@ -95,14 +95,14 @@
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 62px 0;
+  padding: 72px 0;
 }
 
 .ed-center-line::before {
   content: "";
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-60%);
   width: 3px;
   top: 0;
   bottom: 0;
@@ -126,4 +126,16 @@
   width: 85%;
   height: 85%;
   object-fit: contain;
+}
+
+.ed-animate {
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition-delay: var(--delay, 0s);
+}
+
+.ed-animate.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }

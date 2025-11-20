@@ -43,6 +43,7 @@ export const createAxiosInstance = (baseURL) => {
         "/auth/forgotpass-resend-otp",
         "/portfolio/ping",
         "/portfolio/getAboutMe",
+        "/portfolio/contactUs",
       ];
 
       if (!allowedUrls.some((url) => config.url.includes(url)) && !token) {
