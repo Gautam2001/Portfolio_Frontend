@@ -1,0 +1,46 @@
+.admin-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.admin-section {
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px #0002;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-header h2 {
+  margin: 0;
+}
+
+.logout-btn {
+  background: #ff4d4d;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #e64545;
+}

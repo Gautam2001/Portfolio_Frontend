@@ -13,7 +13,7 @@ import { usePopup } from "../GlobalFunctions/GlobalPopup/GlobalPopupContext";
 
 const MainPage = () => {
   const { showPopup } = usePopup();
-  const { portfolioApi } = useApiClients();
+  const { portfolioApi, loginApi } = useApiClients();
   const scrollContainerRef = useRef(null);
 
   const [loading, setLoading] = useState(false);
@@ -49,6 +49,22 @@ const MainPage = () => {
   };
 
   useEffect(() => {
+    sessionStorage.clear();
+    const pingServers = async () => {
+      try {
+        const [authRes, portfolioRes] = await Promise.all([
+          loginApi.get("/auth/ping"),
+          portfolioApi.get("/portfolio/ping"),
+        ]);
+
+        console.log("Auth Ping Response:", authRes.data);
+        console.log("Portfolio Ping Response:", portfolioRes.data);
+      } catch (err) {
+        console.error("Ping failed:", err);
+      }
+    };
+
+    pingServers();
     fetchPortfolioData();
   }, []);
 

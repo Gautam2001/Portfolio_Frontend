@@ -41,6 +41,8 @@ export const createAxiosInstance = (baseURL) => {
         "/auth/validate-otp",
         "/auth/forgot-password",
         "/auth/forgotpass-resend-otp",
+        "/portfolio/exists",
+        "/portfolio/join",
         "/portfolio/ping",
         "/portfolio/getAboutMe",
         "/portfolio/contactUs",
