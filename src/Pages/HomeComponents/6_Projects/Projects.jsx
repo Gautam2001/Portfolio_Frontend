@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import "./Projects.css";
 import SectionHeading from "../SectionHeading/SectionHeading";
+import { useNavigate } from "react-router-dom";
 
 const Projects = ({ projects }) => {
   const containerRef = useRef(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -34,7 +36,7 @@ const Projects = ({ projects }) => {
             <div
               key={project.id}
               className="pr-card pr-animate"
-              style={{ "--delay": `${idx * 0.2}s` }}
+              style={{ "--delay": `${idx * 0.1}s` }}
             >
               <div className="pr-card-front">
                 <img
@@ -45,7 +47,13 @@ const Projects = ({ projects }) => {
                 <div className="pr-card-title-overlay">{project.title}</div>
               </div>
 
-              <div className="pr-card-back">
+              <div
+                className="pr-card-back"
+                onClick={() =>
+                  navigate("/project", { state: { id: project.id } })
+                }
+                style={{ cursor: "pointer" }}
+              >
                 <p className="pr-card-desc">{project.shortDesc}</p>
                 <div className="pr-card-links">
                   {project.links.map((link, i) => (
@@ -55,6 +63,7 @@ const Projects = ({ projects }) => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="pr-card-link"
+                      onClick={(e) => e.stopPropagation()}
                     >
                       {link.name}
                     </a>

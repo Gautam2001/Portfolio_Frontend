@@ -46,6 +46,7 @@ export const createAxiosInstance = (baseURL) => {
         "/portfolio/ping",
         "/portfolio/getAboutMe",
         "/portfolio/contactUs",
+        "/portfolio/getProjectById",
       ];
 
       if (!allowedUrls.some((url) => config.url.includes(url)) && !token) {

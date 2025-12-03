@@ -12,6 +12,7 @@ import ProtectedRoute from "./Api/ProtectedRoute";
 import AdminPage from "./Pages/AdminPortal/AdminPage";
 
 import "./Pages/GlobalFunctions/GlobalPopup/GlobalPopup.css";
+import ProjectPage from "./Pages/ProjectPage/ProjectPage";
 
 const isMaintenance = import.meta.env.VITE_MAINTENANCE_MODE === "true";
 
@@ -25,6 +26,7 @@ function App() {
           {/* Public Routes */}
           <Route path="/" element={<MainPage />} />
           <Route path="/home" element={<MainPage />} />
+          <Route path="/project" element={<ProjectPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/join" element={<Join />} />
           <Route path="/signup" element={<RequestSignup />} />

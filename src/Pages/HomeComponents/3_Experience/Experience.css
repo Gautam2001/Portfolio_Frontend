@@ -111,8 +111,10 @@
   font-size: 0.95rem;
   color: #666;
   line-height: 1.4;
-  margin: 8px 0;
-  text-align: center;
+  margin: 8px 0 16px 20px;
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 0;
 }
 
 /* Year */

@@ -42,7 +42,14 @@ const Education = ({ education }) => {
                     <div className="ed-desc-card">
                       <h3 className="ed-position">{item.position}</h3>
                       <h4 className="ed-institute">{item.name}</h4>
-                      <p className="ed-description">{item.description}</p>
+                      {Array.isArray(item.description) &&
+                        item.description.length > 0 && (
+                          <ul className="ed-description">
+                            {item.description.map((desc, idx) => (
+                              <li key={idx}>{desc}</li>
+                            ))}
+                          </ul>
+                        )}
                     </div>
                   ) : (
                     <div className="ed-year-left">{item.year}</div>
@@ -60,7 +67,14 @@ const Education = ({ education }) => {
                     <div className="ed-desc-card">
                       <h3 className="ed-position">{item.position}</h3>
                       <h4 className="ed-institute">{item.name}</h4>
-                      <p className="ed-description">{item.description}</p>
+                      {Array.isArray(item.description) &&
+                        item.description.length > 0 && (
+                          <ul className="ed-description">
+                            {item.description.map((desc, idx) => (
+                              <li key={idx}>{desc}</li>
+                            ))}
+                          </ul>
+                        )}
                     </div>
                   ) : (
                     <div className="ed-year-right">{item.year}</div>

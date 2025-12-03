@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useApiClients } from "../../../Api/useApiClients";
 import { usePopup } from "../../GlobalFunctions/GlobalPopup/GlobalPopupContext";
 import "./ProjectManager.css";
+import { useNavigate } from "react-router-dom";
 
 const ConfirmDeleteModal = ({ visible, code, onConfirm, onCancel }) => {
   const [input, setInput] = useState("");
@@ -52,6 +53,7 @@ const ConfirmDeleteModal = ({ visible, code, onConfirm, onCancel }) => {
 };
 
 const ProjectManager = ({ initialProjects, onRefresh }) => {
+  const navigate = useNavigate();
   const { portfolioApi } = useApiClients();
   const { showPopup } = usePopup();
 
@@ -274,7 +276,11 @@ const ProjectManager = ({ initialProjects, onRefresh }) => {
       <div className="projects-list">
         {projectsPreview.map((p) => (
           <div className="project-card" key={p.id}>
-            <div className="project-info">
+            <div
+              className="project-info"
+              onClick={() => navigate("/project", { state: { id: p.id } })}
+              style={{ cursor: "pointer" }}
+            >
               <strong>{p.title}</strong>
               <p>{p.shortDesc}</p>
             </div>

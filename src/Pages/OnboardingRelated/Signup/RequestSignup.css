@@ -6,6 +6,7 @@
   max-width: 550px;
   width: 100%;
   transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
 .req-signup-header {
@@ -35,6 +36,7 @@
   font-size: 1.8rem;
   margin-top: 0.2rem;
   color: #333;
+  margin: 0;
 }
 
 .req-signup-form {

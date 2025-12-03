@@ -61,7 +61,14 @@ const Experience = ({ experience }) => {
                     <span className="ex-year">{item.year}</span>
                     <h3 className="ex-position">{item.position}</h3>
                     <h4 className="ex-company">{item.name}</h4>
-                    <p className="ex-description">{item.description}</p>
+                    {Array.isArray(item.description) &&
+                      item.description.length > 0 && (
+                        <ul className="ex-description">
+                          {item.description.map((desc, idx) => (
+                            <li key={idx}>{desc}</li>
+                          ))}
+                        </ul>
+                      )}
                   </div>
 
                   {rowIndex < rows.length - 1 &&

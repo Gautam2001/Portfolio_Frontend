@@ -10,6 +10,7 @@ import Certificates from "../HomeComponents/7_Certificates/Certificates";
 import ContactUs from "../HomeComponents/8_Contact/Contact";
 import { useApiClients } from "../../Api/useApiClients";
 import { usePopup } from "../GlobalFunctions/GlobalPopup/GlobalPopupContext";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const MainPage = () => {
   const { showPopup } = usePopup();
@@ -18,6 +19,28 @@ const MainPage = () => {
 
   const [loading, setLoading] = useState(false);
   const [portfolioData, setPortfolioData] = useState(null);
+
+  const { state, key } = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (state?.scrollToProjects && portfolioData) {
+      // Delay to allow DOM to render
+      setTimeout(() => {
+        const section = document.getElementById("projects");
+        const scrollContainer = scrollContainerRef.current;
+        const headerOffset = 30;
+
+        if (section && scrollContainer) {
+          scrollContainer.scrollTo({
+            top: section.offsetTop - headerOffset,
+            behavior: "smooth",
+          });
+          navigate(window.location.pathname, { replace: true, state: {} });
+        }
+      }, 250);
+    }
+  }, [state, key, portfolioData, navigate]);
 
   const fetchPortfolioData = async () => {
     try {
@@ -73,7 +96,7 @@ const MainPage = () => {
   }
 
   const sectionComponents = {
-    Home: <Home home={portfolioData.home} />,
+    Home: <Home home={portfolioData.home} contact={portfolioData.contact} />,
     Experience: <Experience experience={portfolioData.experience} />,
     Education: <Education education={portfolioData.education} />,
     Skills: <Skills skills={portfolioData.skills} />,
