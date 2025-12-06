@@ -145,28 +145,36 @@ const ProjectPage = () => {
           {/* CASE 1 — VIDEO + IMAGES */}
           {detail.video && totalScreens > 0 && (
             <div className="video-gallery-container">
+              {/* VIDEO */}
               <div className="video-panel">
-                <video
-                  src={detail.video.url}
-                  controls
-                  className="video-player"
-                />
+                <div className="aspect-16-9">
+                  <video src={detail.video.url} controls />
+                </div>
+
                 {detail.video.description && (
                   <p className="video-desc">{detail.video.description}</p>
                 )}
               </div>
 
+              {/* CAROUSEL */}
               <div className="carousel-panel">
                 <button className="carousel-btn" onClick={prevSlide}>
                   ‹
                 </button>
 
                 <div className="single-img-wrapper">
-                  <img
-                    src={screenshots[carouselIndex].url}
-                    alt={screenshots[carouselIndex].name}
-                    className="carousel-img"
-                  />
+                  <div className="aspect-16-9">
+                    <img
+                      src={screenshots[carouselIndex].url}
+                      alt={screenshots[carouselIndex].name}
+                    />
+                  </div>
+
+                  {screenshots[carouselIndex].description && (
+                    <p className="video-desc">
+                      {screenshots[carouselIndex].description}
+                    </p>
+                  )}
                 </div>
 
                 <button className="carousel-btn" onClick={nextSlide}>
@@ -179,40 +187,48 @@ const ProjectPage = () => {
           {/* CASE 2 — ONLY VIDEO */}
           {detail.video && totalScreens === 0 && (
             <div className="video-only">
-              <video
-                src={detail.video.url}
-                controls
-                className="video-player big"
-              />
+              <div className="aspect-16-9">
+                <video src={detail.video.url} controls />
+              </div>
+
               {detail.video.description && (
                 <p className="video-desc">{detail.video.description}</p>
               )}
             </div>
           )}
 
-          {/* CASE 3 — ONLY IMAGES (2 AT A TIME) */}
+          {/* CASE 3 — ONLY IMAGES (2 at a time) */}
           {!detail.video && totalScreens > 0 && (
             <div className="carousel-only">
-              <button className="carousel-btn" onClick={prevSlide}>
-                ‹
-              </button>
+              {totalScreens > 1 && (
+                <button className="carousel-btn" onClick={prevSlide}>
+                  ‹
+                </button>
+              )}
 
               <div className="double-img-wrapper">
-                <img
-                  src={screenshots[carouselIndex].url}
-                  className="carousel-img"
-                  alt=""
-                />
-                <img
-                  src={screenshots[(carouselIndex + 1) % totalScreens].url}
-                  className="carousel-img"
-                  alt=""
-                />
+                <div className="aspect-16-9">
+                  <img
+                    src={screenshots[carouselIndex].url}
+                    alt={screenshots[carouselIndex].name}
+                  />
+                </div>
+
+                {totalScreens > 1 && (
+                  <div className="aspect-16-9">
+                    <img
+                      src={screenshots[(carouselIndex + 1) % totalScreens].url}
+                      alt={screenshots[(carouselIndex + 1) % totalScreens].name}
+                    />
+                  </div>
+                )}
               </div>
 
-              <button className="carousel-btn" onClick={nextSlide}>
-                ›
-              </button>
+              {totalScreens > 1 && (
+                <button className="carousel-btn" onClick={nextSlide}>
+                  ›
+                </button>
+              )}
             </div>
           )}
         </section>

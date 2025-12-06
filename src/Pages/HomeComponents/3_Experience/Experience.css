@@ -73,7 +73,7 @@
 .ex-card {
   width: 295px;
   max-width: 295px;
-  height: 245px;
+  height: 285px;
   background: #fff;
   padding: 10px 20px;
   border-radius: 10px;
@@ -129,7 +129,7 @@
 .ex-line-vertical {
   position: absolute;
   width: 3px;
-  height: 400px;
+  height: 442px;
   background: #d1d1d1;
   top: 35px;
   z-index: 0;

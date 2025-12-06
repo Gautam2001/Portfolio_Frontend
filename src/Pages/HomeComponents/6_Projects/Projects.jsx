@@ -32,46 +32,53 @@ const Projects = ({ projects }) => {
       <div className="pr-container">
         <SectionHeading title="Projects" />
         <div className="pr-grid">
-          {projects.map((project, idx) => (
-            <div
-              key={project.id}
-              className="pr-card pr-animate"
-              style={{ "--delay": `${idx * 0.1}s` }}
-            >
-              <div className="pr-card-front">
-                <img
-                  src={project.titleImage.url}
-                  alt={project.title}
-                  className="pr-card-image"
-                />
-                <div className="pr-card-title-overlay">{project.title}</div>
-              </div>
+          {projects.map((project, idx) => {
+            const nextProjectId = projects[(idx + 1) % projects.length].id;
 
+            return (
               <div
-                className="pr-card-back"
-                onClick={() =>
-                  navigate("/project", { state: { id: project.id } })
-                }
-                style={{ cursor: "pointer" }}
+                key={project.id}
+                className="pr-card pr-animate"
+                style={{ "--delay": `${idx * 0.1}s` }}
               >
-                <p className="pr-card-desc">{project.shortDesc}</p>
-                <div className="pr-card-links">
-                  {project.links.map((link, i) => (
-                    <a
-                      key={i}
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="pr-card-link"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      {link.name}
-                    </a>
-                  ))}
+                <div className="pr-card-front">
+                  <img
+                    src={project.titleImage.url}
+                    alt={project.title}
+                    className="pr-card-image"
+                  />
+                  <div className="pr-card-title-overlay">{project.title}</div>
+                </div>
+
+                <div
+                  className="pr-card-back"
+                  onClick={() =>
+                    navigate("/project", {
+                      state: { id: project.id, nextId: nextProjectId },
+                    })
+                  }
+                  style={{ cursor: "pointer" }}
+                >
+                  <h1 className="pr-card-title">{project.title}</h1>
+                  <p className="pr-card-desc">{project.shortDesc}</p>
+                  <div className="pr-card-links">
+                    {project.links.map((link, i) => (
+                      <a
+                        key={i}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="pr-card-link"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        {link.name}
+                      </a>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>
