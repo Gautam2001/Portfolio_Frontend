@@ -14,3 +14,10 @@
   padding: 20px 0;
   scroll-margin-top: 40px;
 }
+
+@media (max-width: 768px) {
+  .section-block {
+    width: 100%;
+    padding: 5px 0;
+  }
+}

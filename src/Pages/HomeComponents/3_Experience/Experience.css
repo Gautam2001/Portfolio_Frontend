@@ -181,9 +181,67 @@
   }
 }
 
+/* --- MOBILE TIMELINE (Stacked layout) --- */
 @media (max-width: 768px) {
+  .ex-timeline {
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* Stack rows vertically */
+  .ex-row,
+  .reverse-row {
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+  }
+
+  /* Hide horizontal lines */
+  .ex-line-horizontal {
+    display: none;
+  }
+
+  /* Hide vertical lines */
+  .ex-line-vertical {
+    display: none;
+  }
+
+  /* Node wrapper full width and centered */
   .ex-node-wrapper {
     width: 90%;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  /* Node (logo) remains same size */
+  .ex-node {
+    top: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Card full width */
+  .ex-card {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+  .ex-description {
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 15px;
+  }
+
+  .ex-position,
+  .ex-company,
+  .ex-year {
+    text-align: center;
   }
 }

@@ -122,7 +122,7 @@
 /* --- RESPONSIVE --- */
 
 /* Large tablets */
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .home-left {
     max-width: 35%;
   }
@@ -193,45 +193,105 @@
   }
 }
 
-@media (max-width: 560px) {
+/* --- MOBILE SPECIFIC UI (Below 600px) --- */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    height: auto;
+  }
+
+  /* LEFT TEXT STACKED ON TOP */
   .home-left {
-    max-width: 45%;
-    margin-top: 30px;
+    position: relative;
+    margin: 20px 0 10px 0;
+    left: 0;
+    max-width: 90%;
+    text-align: center;
+    z-index: 3;
   }
+
+  .top-line {
+    width: 30%;
+    margin: 0 auto 10px auto;
+  }
+
   .home-name {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
+    line-height: 1.2;
   }
+
   .home-oneliner {
-    font-size: 0.95rem;
+    font-size: 1rem;
+    margin: 8px 0 20px 0;
   }
+
+  /* CENTER IMAGE FULL WIDTH */
   .home-center {
-    margin-left: 0%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    order: 2;
+    z-index: 1;
   }
+
   .home-image {
-    width: 320px;
+    width: 80%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
   }
+
+  /* SOCIAL ICONS BELOW IMAGE */
+  .socials {
+    margin-top: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .socials a {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+    margin: 5px;
+  }
+
+  /* ABOUT ME BELOW IMAGE */
   .home-right {
-    max-width: 35%;
-    padding: 10px 0;
-    max-height: calc(100vh - 52px - 20px); /* leave some space for top/bottom */
-    overflow-y: auto; /* scroll if content exceeds height */
+    order: 3;
+    max-width: 95%;
+    margin-top: 15px;
+    padding: 15px;
+    background: #1f1f23;
+    border-radius: 1rem;
+    overflow-y: visible;
   }
-  .home-right::-webkit-scrollbar {
-    width: 6px; /* optional: thin scrollbar */
-  }
-  .home-right::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 3px;
-  }
+
   .home-right h3 {
     font-size: 1.3rem;
+    margin-bottom: 10px;
+    text-align: center;
   }
+
   .home-right p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: justify;
   }
-  .socials a {
-    width: 30px;
-    height: 30px;
-    font-size: 1.1rem;
+
+  /* Animations remain the same */
+  .home-animate {
+    transform: translateY(10px) scale(0.95);
+    opacity: 0;
+  }
+
+  .home-animate.visible {
+    transform: translateY(0) scale(1);
+    opacity: 1;
   }
 }

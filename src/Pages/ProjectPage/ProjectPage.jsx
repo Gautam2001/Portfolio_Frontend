@@ -261,27 +261,28 @@ const ProjectPage = () => {
       {detail?.apis?.length > 0 && (
         <section className="section">
           <h2 className="section-heading">API Endpoints</h2>
-
-          <table className="api-table">
-            <thead>
-              <tr>
-                <th>Endpoint</th>
-                <th>Method</th>
-                <th>Purpose</th>
-                <th>Auth</th>
-              </tr>
-            </thead>
-            <tbody>
-              {detail.apis.map((api, idx) => (
-                <tr key={idx}>
-                  <td>{api.endpoint}</td>
-                  <td>{api.method}</td>
-                  <td>{api.purpose}</td>
-                  <td>{api.auth}</td>
+          <div className="api-table-wrapper">
+            <table className="api-table">
+              <thead>
+                <tr>
+                  <th>Endpoint</th>
+                  <th>Method</th>
+                  <th>Purpose</th>
+                  <th>Auth</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {detail.apis.map((api, idx) => (
+                  <tr key={idx}>
+                    <td>{api.endpoint}</td>
+                    <td>{api.method}</td>
+                    <td>{api.purpose}</td>
+                    <td>{api.auth}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       )}
 

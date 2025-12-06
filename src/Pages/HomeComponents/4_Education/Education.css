@@ -141,3 +141,77 @@
   opacity: 1;
   transform: translateY(0) scale(1);
 }
+
+/* Mobile layout for education timeline */
+@media (max-width: 768px) {
+  .ed-timeline {
+    width: 95%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .ed-timeline-item {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+  }
+
+  /* Remove central line */
+  .ed-center-line::before {
+    display: none;
+  }
+  .ed-center-line {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Circle/Image on top */
+  .ed-circle {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  .ed-circle img {
+    width: 80%;
+    height: 80%;
+  }
+
+  /* Year below the circle */
+  .ed-year-left,
+  .ed-year-right {
+    padding: 0;
+    margin: 5px 0 12px 0;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #888;
+  }
+
+  /* Card below the year */
+  .ed-desc-card {
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ed-desc-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Force all sides to center full width */
+  .ed-side {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+  }
+}

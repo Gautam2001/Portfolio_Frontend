@@ -1,19 +1,25 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Education.css";
 import SectionHeading from "../SectionHeading/SectionHeading";
 
 const Education = ({ education }) => {
   const containerRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect mobile viewport
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          } else {
-            entry.target.classList.remove("visible"); // re-trigger every time
-          }
+          if (entry.isIntersecting) entry.target.classList.add("visible");
+          else entry.target.classList.remove("visible");
         });
       },
       { threshold: 0.2 }
@@ -35,6 +41,31 @@ const Education = ({ education }) => {
           {education.map((item, index) => {
             const isLeft = index % 2 === 0;
 
+            // Mobile layout: always vertical
+            if (isMobile) {
+              return (
+                <div className="ed-timeline-item ed-animate" key={index}>
+                  <div className="ed-circle">
+                    <img src={item.logo.url} alt={item.logo.name} />
+                  </div>
+                  <div className="ed-year-mobile">{item.year}</div>
+                  <div className="ed-desc-card">
+                    <h3 className="ed-position">{item.position}</h3>
+                    <h4 className="ed-institute">{item.name}</h4>
+                    {Array.isArray(item.description) &&
+                      item.description.length > 0 && (
+                        <ul className="ed-description">
+                          {item.description.map((desc, idx) => (
+                            <li key={idx}>{desc}</li>
+                          ))}
+                        </ul>
+                      )}
+                  </div>
+                </div>
+              );
+            }
+
+            // Desktop / tablet layout (original alternating)
             return (
               <div className="ed-timeline-item ed-animate" key={index}>
                 <div className="ed-side left-side">
