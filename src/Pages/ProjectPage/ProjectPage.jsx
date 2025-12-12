@@ -37,7 +37,12 @@ const ProjectPage = () => {
   };
 
   useEffect(() => {
-    if (projectId) fetchProject();
+    if (!projectId) {
+      navigate("/", { replace: true });
+      return;
+    }
+
+    fetchProject();
   }, [projectId]);
 
   if (!project) return <div className="project-loading">Loading...</div>;
