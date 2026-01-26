@@ -4,6 +4,9 @@ import "./ProjectPage.css";
 import { useApiClients } from "../../Api/useApiClients";
 import { usePopup } from "../GlobalFunctions/GlobalPopup/GlobalPopupContext";
 
+import fallbackData from "../../utils/Portfolio.json";
+import { isBackendDown } from "../../utils/backendStatus";
+
 const ProjectPage = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
@@ -42,7 +45,17 @@ const ProjectPage = () => {
       return;
     }
 
-    fetchProject();
+    if (isBackendDown()) {
+      const projFallback = fallbackData.projectDetails[projectId];
+
+      if (projFallback) {
+        setProject(projFallback.project);
+      } else {
+        navigate("/", { replace: true });
+      }
+    } else {
+      fetchProject();
+    }
   }, [projectId]);
 
   if (!project) return <div className="project-loading">Loading...</div>;

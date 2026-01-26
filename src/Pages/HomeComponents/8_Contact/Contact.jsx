@@ -11,6 +11,9 @@ import {
   FaPhone,
 } from "react-icons/fa";
 
+import { isBackendDown } from "../../../utils/backendStatus";
+
+
 const Contact = ({ contact }) => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [errors, setErrors] = useState({});
@@ -45,6 +48,12 @@ const Contact = ({ contact }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (isBackendDown()) {
+    showPopup("Backend currently offline. Demo mode active.", "info");
+    return;
+  }
+
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);

@@ -12,6 +12,9 @@ import { useApiClients } from "../../Api/useApiClients";
 import { usePopup } from "../GlobalFunctions/GlobalPopup/GlobalPopupContext";
 import { useLocation, useNavigate } from "react-router-dom";
 
+import fallbackData from "../../utils/Portfolio.json";
+import { setBackendDown } from "../../utils/backendStatus";
+
 const MainPage = () => {
   const { showPopup } = usePopup();
   const { portfolioApi, loginApi } = useApiClients();
@@ -42,6 +45,15 @@ const MainPage = () => {
     }
   }, [state, key, portfolioData, navigate]);
 
+  const pingAuthAPI = async () => {
+    try {
+        const authRes = await loginApi.get("/auth/ping");
+        console.log("Auth Ping Response:", authRes.data);
+      } catch (err) {
+        console.error("Admin portal down...", err);
+      }
+  };
+  
   const fetchPortfolioData = async () => {
     try {
       setLoading(true);
@@ -73,22 +85,35 @@ const MainPage = () => {
 
   useEffect(() => {
     sessionStorage.clear();
-    const pingServers = async () => {
-      try {
-        const [authRes, portfolioRes] = await Promise.all([
-          loginApi.get("/auth/ping"),
-          portfolioApi.get("/portfolio/ping"),
-        ]);
 
-        console.log("Auth Ping Response:", authRes.data);
-        console.log("Portfolio Ping Response:", portfolioRes.data);
-      } catch (err) {
-        console.error("Ping failed:", err);
+    const init = async () => {
+      setLoading(true);
+
+      try {
+        await portfolioApi.get("/portfolio/ping");
+        setBackendDown(false);
+        await fetchPortfolioData();
+        await pingAuthAPI();
+      } catch {
+        console.warn("Backend down, loading fallback data");
+        setBackendDown(true);
+
+        setPortfolioData({
+          home: fallbackData.aboutMe.myData,
+          sections: fallbackData.aboutMe.sections,
+          experience: fallbackData.aboutMe.experience,
+          education: fallbackData.aboutMe.education,
+          skills: fallbackData.aboutMe.skills,
+          certificates: fallbackData.aboutMe.certificates,
+          contact: fallbackData.aboutMe.contact,
+          projects: fallbackData.projects,
+        });
+      } finally {
+        setLoading(false);
       }
     };
 
-    pingServers();
-    fetchPortfolioData();
+    init();
   }, []);
 
   if (loading || !portfolioData) {

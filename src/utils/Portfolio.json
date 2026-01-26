@@ -1,0 +1,1508 @@
+{
+    "status": "0",
+    "message": "aboutMe fetched Successfully.",
+    "aboutMe": {
+        "id": "691733b2ab068baedc136302",
+        "myData": {
+            "name": "Gautam Singhal",
+            "image": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764853785/MyPic_rxffmi.png",
+                "name": "Profile Picture",
+                "description": "Professional headshot"
+            },
+            "oneLiner": "Designing scalable systems, high-reliability backends, and full-stack applications.",
+            "description": "I’m a backend-focused full-stack developer specializing in Java (Spring Boot) and React.js, with a strong interest in system design and scalable architectures. I build high-performance, fault-tolerant applications that operate reliably under real-world traffic. My experience includes real-time messaging systems, secure authentication microservices, e-commerce platforms, and AI-powered services, with an emphasis on clean architecture, efficient data flows, and strong security boundaries. I continuously strengthen my problem-solving skills through data structures and algorithms, and enjoy reasoning about system trade-offs to deliver production-ready solutions with long-term maintainability."
+        },
+        "experience": [
+            {
+                "position": "Software Engineer",
+                "name": "Tata Consultancy Services (TCS)",
+                "year": "Nov 2024 - Present",
+                "description": [
+                    "Modernized core banking modules by migrating legacy services to Spring Boot.",
+                    "Redesigned trade processing workflows, reducing deployment cycles from 2 weeks to 4 days by removing cross-team bottlenecks.",
+                    "Improved processing reliability and data accuracy, reducing operational delays by 30%."
+                ],
+                "logo": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/TCS_gt6dle.png",
+                    "name": "TCS Logo",
+                    "description": "Company Logo"
+                }
+            },
+            {
+                "position": "Software Engineer",
+                "name": "BANKIT",
+                "year": "Sept 2024 - Nov 2024",
+                "description": [
+                    "Developed backend services for e-commerce workflows using Spring Boot REST APIs.",
+                    "Implemented secure authentication and authorization using JWT with RSA keys.",
+                    "Optimized migrated modules to improve overall system performance and stability."
+                ],
+                "logo": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/BankIT_s3i1ra.png",
+                    "name": "BANKIT Logo",
+                    "description": "Company Logo"
+                }
+            },
+            {
+                "position": "Software Engineer Intern",
+                "name": "BANKIT",
+                "year": "Feb 2024 - Aug 2024",
+                "description": [
+                    "Contributed to core e-commerce features using Spring Boot and React.js.",
+                    "Built responsive UI components for catalog browsing and transaction flows.",
+                    "Assisted in migrating legacy Struts modules to Spring Boot."
+                ],
+                "logo": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/BankIT_s3i1ra.png",
+                    "name": "BANKIT Logo",
+                    "description": "Company Logo"
+                }
+            },
+            {
+                "position": "Salesforce Developer Intern",
+                "name": "Salesforce",
+                "year": "Nov 2023 - Dec 2023",
+                "description": [
+                    "Developed Lightning Web Components (LWC) and automated workflows using Apex.",
+                    "Improved UI responsiveness and deployment efficiency using Salesforce CLI."
+                ],
+                "logo": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/Salesforce_hs0qvm.png",
+                    "name": "Salesforce Logo",
+                    "description": "Company Logo"
+                }
+            }
+        ],
+        "education": [
+            {
+                "position": "Bachelor of Technology",
+                "name": "SRM Institute of Science and Technology",
+                "year": "2020 - 2024",
+                "description": [
+                    "Completed B.Tech in Computer Science and Engineering with a CGPA of 9.4/10.",
+                    "Gained strong foundations in algorithms, software engineering, and programming."
+                ],
+                "logo": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763281234/srm_b2cdy0.png",
+                    "name": "SRM Logo",
+                    "description": "College Logo"
+                }
+            },
+            {
+                "position": "Senior Secondary (12th Grade)",
+                "name": "Somerville School, Noida",
+                "year": "2018 - 2020",
+                "description": [
+                    "Studied Physics, Chemistry, Mathematics, and Computer Science.",
+                    "Developed early interest in STEM and problem-solving."
+                ],
+                "logo": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763280892/logo-new42025_wpg2yq.png",
+                    "name": "Somerville School Logo",
+                    "description": "School Logo"
+                }
+            },
+            {
+                "position": "Secondary (10th Grade)",
+                "name": "Somerville School, Noida",
+                "year": "2016 - 2018",
+                "description": [
+                    "Completed secondary education with strong fundamentals in Mathematics and Science."
+                ],
+                "logo": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763280892/logo-new42025_wpg2yq.png",
+                    "name": "Somerville School Logo",
+                    "description": "School Logo"
+                }
+            }
+        ],
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "RESTful APIs",
+            "Microservices",
+            "System Design",
+            "JWT & Authentication",
+            "WebSocket",
+            "Database Design",
+            "PostgreSQL",
+            "MongoDB",
+            "React.js",
+            "Data Structures & Algorithms",
+            "Docker",
+            "Git",
+            "Jenkins",
+            "Postman",
+            "AI/ML Integration",
+            "Agile",
+            "Render",
+            "Vercel",
+            "Neon",
+            "Cloudinary"
+        ],
+        "contact": [
+            {
+                "name": "Email",
+                "url": "mailto:singhal.gautam.gs@gmail.com"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/gautam-singhal-b87813226/"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com/Gautam2001"
+            },
+            {
+                "name": "Phone",
+                "url": "tel:+919911476468"
+            },
+            {
+                "name": "Resume",
+                "url": "https://drive.google.com/file/d/12H7y1snb15QF0t8YQLjJnmW4k-t-RPuC/view?usp=drive_link"
+            }
+        ],
+        "sections": [
+            "Home",
+            "Experience",
+            "Education",
+            "Skills",
+            "Projects",
+            "Contact"
+        ],
+        "uploadedBy": "Gautam",
+        "uploadAt": "2026-01-03T13:59:36.533"
+    },
+    "projects": [
+        {
+            "id": "6930419d44f89de5fbc85cee",
+            "titleImage": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002391/Screenshot_2025-12-06_110734_naxq5i.png",
+                "name": "Messenger Chats Banner",
+                "description": "Banner representing the realtime communication system"
+            },
+            "shortDesc": "A realtime chat application built using Java Spring Boot microservices, WebSockets (STOMP), JWT authentication, and a React + Vite frontend.",
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "url": "https://messenger-chats.vercel.app/"
+                },
+                {
+                    "name": "GitHub – Backend",
+                    "url": "https://github.com/Gautam2001/messenger-backend"
+                },
+                {
+                    "name": "GitHub – Frontend",
+                    "url": "https://github.com/Gautam2001/messenger-frontend"
+                }
+            ],
+            "title": "Messenger Chats – Realtime Microservice-based Chat System"
+        },
+        {
+            "id": "6930419d44f89de5fbc85cef",
+            "titleImage": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002294/Screenshot_2025-12-06_111041_qot5yn.png",
+                "name": "AI Bot Microservice Banner",
+                "description": "Banner representing the AI chat microservice"
+            },
+            "shortDesc": "A backend-only microservice providing AI-powered chat functionality. It is stateless, plug-and-play, and integrates seamlessly with other applications like Messenger Chats.",
+            "links": [
+                {
+                    "name": "GitHub – Backend",
+                    "url": "https://github.com/Gautam2001/AIBot"
+                }
+            ],
+            "title": "AI Bot Microservice – Plug-and-Play AI Chat Bot"
+        },
+        {
+            "id": "6930419d44f89de5fbc85cec",
+            "titleImage": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002472/Screenshot_2025-11-30_143127_ziauwd.png",
+                "name": "Wrap & Wow Banner",
+                "description": "Banner representing the gift card e-commerce platform"
+            },
+            "shortDesc": "A full-stack e-commerce application for gift cards with admin analytics, personalized gifting, and real-time order updates. Built with Spring Boot microservices and a React + Vite frontend.",
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "url": "https://wrap-and-wow.vercel.app/"
+                },
+                {
+                    "name": "GitHub – Backend",
+                    "url": "https://github.com/Gautam2001/wrapwow-backend"
+                },
+                {
+                    "name": "GitHub – Frontend",
+                    "url": "https://github.com/Gautam2001/wrapwow-frontend"
+                }
+            ],
+            "title": "Wrap & Wow – E-commerce Gift Card Platform"
+        },
+        {
+            "id": "6930419d44f89de5fbc85ced",
+            "titleImage": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002319/Screenshot_2025-12-06_111158_xryoi3.png",
+                "name": "Login Microservice Banner",
+                "description": "Banner representing the authentication microservice in a project."
+            },
+            "shortDesc": "A Spring Boot microservice for authentication and authorization, implementing JWT-based security with RSA algorithm, OTP-based signup with E-mail support, and secure user management.",
+            "links": [
+                {
+                    "name": "GitHub – Backend",
+                    "url": "https://github.com/Gautam2001/login-microservice"
+                }
+            ],
+            "title": "Login Microservice – Authentication & Authorization System"
+        },
+        {
+            "id": "6930419d44f89de5fbc85cf0",
+            "titleImage": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002423/Screenshot_2025-12-06_114939_jfmawv.png",
+                "name": "Portfolio Banner",
+                "description": "Banner representing Gautam's full stack project's portfolio"
+            },
+            "shortDesc": "A full-stack portfolio platform to showcase my projects, skills, and personal info. Built with Java Spring Boot backend and React + Vite frontend with MongoDB powering it with data.",
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "url": "https://gautam-singhal.vercel.app/"
+                },
+                {
+                    "name": "GitHub – Backend",
+                    "url": "https://github.com/Gautam2001/Portfolio-Project"
+                },
+                {
+                    "name": "GitHub – Frontend",
+                    "url": "https://github.com/Gautam2001/Portfolio_Frontend"
+                }
+            ],
+            "title": "Portfolio – Full Stack Showcase"
+        }
+    ],
+    "projectDetails": {
+        "6930419d44f89de5fbc85cee": {
+            "project": {
+                "id": "6930419d44f89de5fbc85cee",
+                "title": "Messenger Chats – Realtime Microservice-based Chat System",
+                "titleImage": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002391/Screenshot_2025-12-06_110734_naxq5i.png",
+                    "name": "Messenger Chats Banner",
+                    "description": "Banner representing the realtime communication system"
+                },
+                "shortDesc": "A realtime chat application built using Java Spring Boot microservices, WebSockets (STOMP), JWT authentication, and a React + Vite frontend.",
+                "links": [
+                    {
+                        "name": "Live Demo",
+                        "url": "https://messenger-chats.vercel.app/"
+                    },
+                    {
+                        "name": "GitHub – Backend",
+                        "url": "https://github.com/Gautam2001/messenger-backend"
+                    },
+                    {
+                        "name": "GitHub – Frontend",
+                        "url": "https://github.com/Gautam2001/messenger-frontend"
+                    }
+                ],
+                "detail": {
+                    "overview": [
+                        "Messenger Chats is a realtime messaging platform where every user establishes a WebSocket session and subscribes to their personal message topic. This allows instant message delivery, presence awareness, and rapid UI updates.",
+                        "Messenger Chats uses REST APIs as a fallback and as the primary source of truth — all chat data is fetched on login from these endpoints, and message history is loaded with server-side pagination on the chat screen to ensure consistency and reliable syncing.",
+                        "The system supports message lifecycle stages — SENT, DELIVERED, and SEEN — driven by a hybrid mechanism combining WebSockets and fallback REST APIs. This ensures reliable state syncing even under unstable network conditions.",
+                        "The backend follows a microservice pattern, using a login/auth microservice for identity, a dedicated Messenger microservice for message operations, and a STOMP WebSocket layer for broadcasting events."
+                    ],
+                    "keyFeatures": [
+                        "Realtime WebSocket-based chat",
+                        "Message statuses: SENT, DELIVERED, SEEN",
+                        "Fallback REST APIs for status reliability",
+                        "Cursor-based pagination for chat history",
+                        "User search with SQL LIKE",
+                        "Browser notifications for new messages",
+                        "Message edit/delete",
+                        "Online/offline detection",
+                        "Conversation previews with unread counts",
+                        "Microservice architecture with JWT handshake validation"
+                    ],
+                    "techStack": [
+                        "Backend: Java Spring Boot, PostgreSQL, JWT, WebSockets (STOMP), SimpMessagingTemplate, RestTemplate",
+                        "Frontend: React + Vite, Axios, Browser Notifications API",
+                        "Architecture: Microservice-oriented with dedicated login service"
+                    ],
+                    "engineeringHighlight": "The most challenging part of the system is the synchronized status update pipeline. Messages move from SENT → DELIVERED → SEEN using both WebSocket push events and periodic batched updates from the frontend. Every 10 seconds, the client sends lists of delivered and seen messageIds through the WebSocket channel. The backend updates these states and broadcasts them to the message senders, ensuring that the UI always reflects the latest status even during network inconsistencies or missed events.",
+                    "tables": [
+                        {
+                            "name": "messages",
+                            "description": "Stores all chat messages between users",
+                            "columns": [
+                                "message_id",
+                                "sender",
+                                "receiver",
+                                "content",
+                                "sent_at",
+                                "delivered_at",
+                                "seen_at",
+                                "status",
+                                "is_deleted",
+                                "is_edited"
+                            ]
+                        },
+                        {
+                            "name": "messenger_users",
+                            "description": "Stores information about users in the messenger system",
+                            "columns": [
+                                "user_id",
+                                "joined_at",
+                                "name",
+                                "username"
+                            ]
+                        }
+                    ],
+                    "video": {
+                        "url": "https://res.cloudinary.com/drdywtfvk/video/upload/v1765013758/Screen_Recording_2025-12-06_145715_qd0hhl.mp4",
+                        "name": "Live Demo",
+                        "description": "High-level user interface showing messaging platform with websocket, REST API and Browser notification in action"
+                    },
+                    "screenshots": [
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002391/Screenshot_2025-12-06_110734_naxq5i.png",
+                            "name": "Overview UI",
+                            "description": "High-level UI & flow introduction"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002392/Screenshot_2025-12-06_111041_duqciv.png",
+                            "name": "Chat Page Focus",
+                            "description": "Showing Chat with AI feature"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002391/Screenshot_2025-12-06_110500_dzi3by.png",
+                            "name": "Chat Page Focus - 2",
+                            "description": "Chat page showing message delete and edit"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002392/Screenshot_2025-12-06_110900_q15vyi.png",
+                            "name": "contact Page Focus",
+                            "description": "Contact page showing unread message count"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002390/Screenshot_2025-09-01_174716_16x9_afsvbh.png",
+                            "name": "Mobile UI",
+                            "description": "Mobile UI Showing Contacts page"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002391/Screenshot_2025-09-01_174818_16x9_sfdjy8.png",
+                            "name": "Mobile UI - 2",
+                            "description": "Mobile UI Showing Chats page"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002395/Screenshot_2025-12-06_111151_kk6ofe.png",
+                            "name": "Login UI",
+                            "description": "Login page"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002392/Screenshot_2025-12-06_111158_lvsgfx.png",
+                            "name": "Signup UI - 2",
+                            "description": "SignUp Page"
+                        }
+                    ],
+                    "apis": [
+                        {
+                            "endpoint": "/status-update",
+                            "method": "WEBSOCKET",
+                            "purpose": "Receive and handle status updates from users via WebSocket",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/messenger/ping",
+                            "method": "GET",
+                            "purpose": "Check if messenger service is up",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/messenger/exists",
+                            "method": "POST",
+                            "purpose": "Check if a user exists",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/messenger/join",
+                            "method": "POST",
+                            "purpose": "Register a new user",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/messenger/send-message",
+                            "method": "POST",
+                            "purpose": "Send a message from sender to receiver",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/messenger/contacts",
+                            "method": "POST",
+                            "purpose": "Fetch contacts of a user",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/messenger/chat-history",
+                            "method": "POST",
+                            "purpose": "Fetch chat history between a user and a contact",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/messenger/search-user",
+                            "method": "POST",
+                            "purpose": "Search for a user in the messenger system",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/messenger/message-delivered",
+                            "method": "POST",
+                            "purpose": "Mark messages as delivered for a user",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/messenger/message-seen",
+                            "method": "POST",
+                            "purpose": "Mark messages as seen for a user",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/messenger/message-delete",
+                            "method": "POST",
+                            "purpose": "Delete a specific message",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/messenger/message-edit",
+                            "method": "POST",
+                            "purpose": "Edit the content of a specific message",
+                            "auth": "Requires JWT authentication"
+                        }
+                    ]
+                },
+                "uploadedBy": "Gautam",
+                "uploadAt": "2025-12-12T21:59:55.853"
+            },
+            "message": "Project with Id: 6930419d44f89de5fbc85cee fetched Successfully.",
+            "status": "0"
+        },
+        "6930419d44f89de5fbc85cef": {
+            "project": {
+                "id": "6930419d44f89de5fbc85cef",
+                "title": "AI Bot Microservice – Plug-and-Play AI Chat Bot",
+                "titleImage": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002294/Screenshot_2025-12-06_111041_qot5yn.png",
+                    "name": "AI Bot Microservice Banner",
+                    "description": "Banner representing the AI chat microservice"
+                },
+                "shortDesc": "A backend-only microservice providing AI-powered chat functionality. It is stateless, plug-and-play, and integrates seamlessly with other applications like Messenger Chats.",
+                "links": [
+                    {
+                        "name": "GitHub – Backend",
+                        "url": "https://github.com/Gautam2001/AIBot"
+                    }
+                ],
+                "detail": {
+                    "overview": [
+                        "AI Bot Microservice is a stateless backend service designed to add AI chat capabilities to any application. It currently powers the AI agent in Messenger Chats project.",
+                        "The microservice receives user messages along with the last six messages (if available) for context, calls the Hugging Face model `HuggingFaceTB/SmolLM3-3B:hf-inference`, and returns a response.",
+                        "It appears as a virtual contact in integrated platforms, allowing users to chat with an AI agent just like a real user."
+                    ],
+                    "keyFeatures": [
+                        "Stateless AI chat microservice – no database required",
+                        "Context-aware responses using last six messages",
+                        "Plug-and-play integration with other applications",
+                        "Uses Hugging Face model `HuggingFaceTB/SmolLM3-3B:hf-inference` for AI-powered responses",
+                        "JWT authentication for secure API calls",
+                        "Real-time message responses",
+                        "Lightweight and scalable backend"
+                    ],
+                    "techStack": [
+                        "Backend: Java Spring Boot, JWT, REST APIs",
+                        "AI Integration: Hugging Face model `HuggingFaceTB/SmolLM3-3B:hf-inference`",
+                        "Architecture: Microservice-oriented, stateless"
+                    ],
+                    "engineeringHighlight": "The core engineering challenge was to maintain contextual awareness in AI responses while keeping the service stateless. By sending the last six messages along with the current input to the Hugging Face model `HuggingFaceTB/SmolLM3-3B:hf-inference`, the system generates coherent and contextually relevant replies without storing any user data locally.",
+                    "tables": null,
+                    "video": null,
+                    "screenshots": [
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002294/Screenshot_2025-12-06_111041_qot5yn.png",
+                            "name": "AI Bot API in UI",
+                            "description": "chatting with AI using the microservice in UI"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002293/Screenshot_20251206_114405_Firefox_16x9_xymfx9.png",
+                            "name": "AI Bot API in UI - 2",
+                            "description": "Contacts page showing AI BOT availability"
+                        }
+                    ],
+                    "apis": [
+                        {
+                            "endpoint": "/bot/ping",
+                            "method": "GET",
+                            "purpose": "Health check for AI Bot Microservice",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/bot/generic",
+                            "method": "POST",
+                            "purpose": "Send user message along with message history to AI Bot for a response",
+                            "auth": "Requires JWT authentication"
+                        }
+                    ]
+                },
+                "uploadedBy": "Gautam",
+                "uploadAt": "2025-12-12T21:59:55.853"
+            },
+            "message": "Project with Id: 6930419d44f89de5fbc85cef fetched Successfully.",
+            "status": "0"
+        },
+        "6930419d44f89de5fbc85cec": {
+            "project": {
+                "id": "6930419d44f89de5fbc85cec",
+                "title": "Wrap & Wow – E-commerce Gift Card Platform",
+                "titleImage": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002472/Screenshot_2025-11-30_143127_ziauwd.png",
+                    "name": "Wrap & Wow Banner",
+                    "description": "Banner representing the gift card e-commerce platform"
+                },
+                "shortDesc": "A full-stack e-commerce application for gift cards with admin analytics, personalized gifting, and real-time order updates. Built with Spring Boot microservices and a React + Vite frontend.",
+                "links": [
+                    {
+                        "name": "Live Demo",
+                        "url": "https://wrap-and-wow.vercel.app/"
+                    },
+                    {
+                        "name": "GitHub – Backend",
+                        "url": "https://github.com/Gautam2001/wrapwow-backend"
+                    },
+                    {
+                        "name": "GitHub – Frontend",
+                        "url": "https://github.com/Gautam2001/wrapwow-frontend"
+                    }
+                ],
+                "detail": {
+                    "overview": [
+                        "Wrap & Wow is a full-stack e-commerce platform focused on gift cards. Users can browse, purchase, and send digital gift cards.",
+                        "The backend is structured as a set of Spring Boot microservices, handling users, gift cards, orders, notifications, and analytics. Login and authentication are integrated via secure APIs through a Authentication MIcroservice.",
+                        "The admin dashboard provides real-time insights into sales, revenue, and user activity, enabling efficient management of gift cards, orders, and promotions."
+                    ],
+                    "keyFeatures": [
+                        "User registration, login, and JWT authentication from Login Microservice",
+                        "Browse gift cards with category, price, and occasion filters",
+                        "Add to cart, checkout, and Order page",
+                        "Order history and status tracking",
+                        "Admin analytics dashboard for sales and popular gift cards",
+                        "Gift card CRUD management for admins",
+                        "Search gift cards, by top sellers and trending",
+                        "Promotions, discounts, and special offers management"
+                    ],
+                    "techStack": [
+                        "Backend: Java Spring Boot, PostgreSQL, JWT, RestTemplate",
+                        "Frontend: React + Vite, Axios, Browser Notifications API",
+                        "Architecture: Microservice-oriented with dedicated user, order, gift card, and analytics service and login microservice"
+                    ],
+                    "engineeringHighlight": "The most complex aspect of Wrap & Wow is the integration of real-time order. Users receive instant updates on gift card delivery, while the admin dashboard reflects live sales and order activity. Analytics are reliable and scalable.",
+                    "tables": [
+                        {
+                            "name": "members",
+                            "description": "Stores user and admin accounts",
+                            "columns": [
+                                "user_id",
+                                "account_status",
+                                "created_at",
+                                "email",
+                                "name",
+                                "role"
+                            ]
+                        },
+                        {
+                            "name": "products",
+                            "description": "Stores products available for sale",
+                            "columns": [
+                                "product_id",
+                                "available_qty",
+                                "category",
+                                "created_at",
+                                "description",
+                                "name",
+                                "product_status",
+                                "total_ordered_qty",
+                                "updated_at",
+                                "updated_by"
+                            ]
+                        },
+                        {
+                            "name": "categories",
+                            "description": "Stores product categories",
+                            "columns": [
+                                "category_id",
+                                "category",
+                                "category_status",
+                                "path"
+                            ]
+                        },
+                        {
+                            "name": "orders",
+                            "description": "Stores orders placed by users",
+                            "columns": [
+                                "order_id",
+                                "order_status",
+                                "order_time",
+                                "total_amount",
+                                "total_items",
+                                "user_id"
+                            ]
+                        },
+                        {
+                            "name": "cart",
+                            "description": "Stores items added to user carts",
+                            "columns": [
+                                "cart_id",
+                                "price_id",
+                                "quantity",
+                                "user_id",
+                                "product_id"
+                            ]
+                        },
+                        {
+                            "name": "product_images",
+                            "description": "Stores product images",
+                            "columns": [
+                                "image_id",
+                                "path",
+                                "product_id"
+                            ]
+                        },
+                        {
+                            "name": "product_price",
+                            "description": "Stores price and discount details for products",
+                            "columns": [
+                                "price_id",
+                                "discount",
+                                "final_price",
+                                "price",
+                                "product_id"
+                            ]
+                        },
+                        {
+                            "name": "order_item",
+                            "description": "Stores items within an order",
+                            "columns": [
+                                "order_item_id",
+                                "price_id",
+                                "price_per_unit",
+                                "quantity",
+                                "total_price",
+                                "order_id",
+                                "product_id"
+                            ]
+                        },
+                        {
+                            "name": "contact_requests",
+                            "description": "Stores contact form submissions",
+                            "columns": [
+                                "request_id",
+                                "email",
+                                "message",
+                                "name"
+                            ]
+                        }
+                    ],
+                    "video": {
+                        "url": "https://res.cloudinary.com/drdywtfvk/video/upload/v1765013729/Screen_Recording_2025-12-06_144111_b6iqm9.mp4",
+                        "name": "Live Demo",
+                        "description": "High-level user interface showing gift card browsing and checkout flow"
+                    },
+                    "screenshots": [
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002472/Screenshot_2025-11-30_143127_ziauwd.png",
+                            "name": "Overview UI",
+                            "description": "Home Page"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002477/Screenshot_2025-11-30_143338_dp6o6s.png",
+                            "name": "Product Catalog",
+                            "description": "Display Products Page - Checkout Flow - 1"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002479/Screenshot_2025-11-30_143420_d1hcgz.png",
+                            "name": "Product Page",
+                            "description": "Product Page - Checkout Flow - 2"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002480/Screenshot_2025-11-30_143537_y8kpl6.png",
+                            "name": "Cart Page",
+                            "description": "Cart Page - Checkout Flow - 3"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002481/Screenshot_2025-11-30_143611_bb3w10.png",
+                            "name": "Checkout Page",
+                            "description": "Checkout Page - Checkout Flow - 4"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002483/Screenshot_2025-11-30_143634_en9snf.png",
+                            "name": "My Orders Page",
+                            "description": "My Orders Page - Checkout Flow - 5"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002486/Screenshot_2025-12-06_112815_eqdxec.png",
+                            "name": "SignUp Page",
+                            "description": "SignUp Page"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002485/Screenshot_2025-12-06_112807_lgduji.png",
+                            "name": "Login Page",
+                            "description": "Login Page"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002487/Screenshot_2025-12-06_113047_edrjel.png",
+                            "name": "Admin Dashboard Page",
+                            "description": "This page displays the overview for the website, along with sections to manage users, products and categories, and an Add Product section."
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002489/Screenshot_2025-12-06_113059_s317rn.png",
+                            "name": "Admin Dashboard Page - 2",
+                            "description": "Admin Analytics Section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002490/Screenshot_2025-12-06_113106_teyb5g.png",
+                            "name": "Admin Dashboard Page - 3",
+                            "description": "Admin Analytics Section remaining part"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002491/Screenshot_2025-12-06_113121_pxt7uc.png",
+                            "name": "Manage Product Page",
+                            "description": "Manage Products"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002496/Screenshot_2025-12-06_113138_o6upoh.png",
+                            "name": "Manage Categories Page",
+                            "description": "Manage and add categories"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002474/Screenshot_2025-11-30_143143_elsgrr.png",
+                            "name": "Home Page",
+                            "description": "Home Page - Customer Favorites Section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002473/Screenshot_2025-11-30_143159_rgfn75.png",
+                            "name": "Home Page - 2",
+                            "description": "Home Page - Elite Collection Section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002475/Screenshot_2025-11-30_143218_qweaxe.png",
+                            "name": "Home Page - 3",
+                            "description": "Home Page - Login drowpdown"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002480/Screenshot_2025-11-30_143318_zauw5q.png",
+                            "name": "Home Page - 4",
+                            "description": "Home Page - User drowpdown"
+                        }
+                    ],
+                    "apis": [
+                        {
+                            "endpoint": "/member/ping",
+                            "method": "GET",
+                            "purpose": "Check member service status",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/member/exists",
+                            "method": "POST",
+                            "purpose": "Check if a user email already exists",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/member/join",
+                            "method": "POST",
+                            "purpose": "Request to join using email (signup start)",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/admin/getAllUsers",
+                            "method": "GET",
+                            "purpose": "Retrieve list of all users (admin only)",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/member/landingPageData",
+                            "method": "GET",
+                            "purpose": "Fetch data required for the landing page",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/member/contactUs",
+                            "method": "POST",
+                            "purpose": "Submit contact form message",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/admin/addCategory",
+                            "method": "POST",
+                            "purpose": "Add a new category with image (admin only)",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/member/getCategories",
+                            "method": "GET",
+                            "purpose": "Fetch all active categories",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/member/getCategoryNames",
+                            "method": "GET",
+                            "purpose": "Get only category names for dropdown/UI",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/admin/updateCategoryStatus",
+                            "method": "POST",
+                            "purpose": "Activate or deactivate a category (admin only)",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/updateCategory",
+                            "method": "POST",
+                            "purpose": "Update category details and image (admin only)",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/addProduct",
+                            "method": "POST",
+                            "purpose": "Create a new product with pricing, discount, quantity and category",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/uploadImage",
+                            "method": "POST",
+                            "purpose": "Upload images for a specific product",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/member/getProducts",
+                            "method": "GET",
+                            "purpose": "Fetch all products for member-facing UI",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/admin/updateProductsStatus",
+                            "method": "POST",
+                            "purpose": "Activate or deactivate multiple products",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/getProductList",
+                            "method": "GET",
+                            "purpose": "Retrieve complete product list for admin panel",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/getProductById",
+                            "method": "GET",
+                            "purpose": "Fetch detailed product info using productId",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/updateProduct",
+                            "method": "POST",
+                            "purpose": "Update product details including price, discount, category and status",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/updateProductImage",
+                            "method": "POST",
+                            "purpose": "Replace or update product images using image IDs",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/user/getProductList",
+                            "method": "GET",
+                            "purpose": "Fetch product list for user storefront",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/user/getBestSellingProductList",
+                            "method": "GET",
+                            "purpose": "Fetch list of best-selling products",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/user/getMostExpensiveProductList",
+                            "method": "GET",
+                            "purpose": "Retrieve products sorted by highest price",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/user/getProductById",
+                            "method": "GET",
+                            "purpose": "Fetch product details by productId",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/admin/getUsers",
+                            "method": "GET",
+                            "purpose": "Retrieve list of users",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/updateUsersStatus",
+                            "method": "POST",
+                            "purpose": "Update status for selected users",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/getAdmins",
+                            "method": "GET",
+                            "purpose": "Retrieve list of admins",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/updateAdminsStatus",
+                            "method": "POST",
+                            "purpose": "Update status for selected admins",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/user/addUpdateToCart",
+                            "method": "POST",
+                            "purpose": "Add a product to cart or update item quantity",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/user/getCart",
+                            "method": "GET",
+                            "purpose": "Fetch full cart details for a user",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/user/getCartQty",
+                            "method": "GET",
+                            "purpose": "Fetch only total quantity of items in cart",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/user/updateCartQty",
+                            "method": "POST",
+                            "purpose": "Update quantity for a specific cart item",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/user/checkout",
+                            "method": "POST",
+                            "purpose": "Process checkout, create order summary, validate cart",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/user/getOrders",
+                            "method": "GET",
+                            "purpose": "Fetch all orders for a given user",
+                            "auth": "Requires JWT authentication with role USER"
+                        },
+                        {
+                            "endpoint": "/admin/getAlertData",
+                            "method": "GET",
+                            "purpose": "Retrieve alert data for admin dashboard",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/analytics/summary",
+                            "method": "GET",
+                            "purpose": "Get summary analytics data for admin dashboard",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        },
+                        {
+                            "endpoint": "/admin/analytics/graphs",
+                            "method": "GET",
+                            "purpose": "Get analytics graph data for admin dashboard",
+                            "auth": "Requires JWT authentication with role ADMIN"
+                        }
+                    ]
+                },
+                "uploadedBy": "Gautam",
+                "uploadAt": "2025-12-12T21:59:55.853"
+            },
+            "message": "Project with Id: 6930419d44f89de5fbc85cec fetched Successfully.",
+            "status": "0"
+        },
+        "6930419d44f89de5fbc85ced": {
+            "project": {
+                "id": "6930419d44f89de5fbc85ced",
+                "title": "Login Microservice – Authentication & Authorization System",
+                "titleImage": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002319/Screenshot_2025-12-06_111158_xryoi3.png",
+                    "name": "Login Microservice Banner",
+                    "description": "Banner representing the authentication microservice in a project."
+                },
+                "shortDesc": "A Spring Boot microservice for authentication and authorization, implementing JWT-based security with RSA algorithm, OTP-based signup with E-mail support, and secure user management.",
+                "links": [
+                    {
+                        "name": "GitHub – Backend",
+                        "url": "https://github.com/Gautam2001/login-microservice"
+                    }
+                ],
+                "detail": {
+                    "overview": [
+                        "This microservice provides secure authentication and authorization for multiple applications, including user registration, login, password management, and JWT token handling.",
+                        "It uses Spring Security with JWT (RSA-signed access and refresh tokens) for stateless authentication, along with E-mail based OTP verification for signup and password resets.",
+                        "The service also includes global exception handling, rate-limiting for OTP requests, and utilities for logging and standardized API responses."
+                    ],
+                    "keyFeatures": [
+                        "User registration with OTP verification",
+                        "Login with JWT-based access and refresh tokens",
+                        "Logout and refresh token invalidation",
+                        "Forgot password flow with OTP verification",
+                        "Reset password flow for logged-in users",
+                        "Resend OTP support with rate-limiting",
+                        "Global exception handling and standardized error responses",
+                        "Spring Security integration with CORS, CSRF, and custom access/denied handlers",
+                        "RSA key-based JWT signing for enhanced security",
+                        "Reusable microservice for authentication across multiple projects"
+                    ],
+                    "techStack": [
+                        "Backend: Java Spring Boot, Spring Security, PostgreSQL, JWT (RSA), RestTemplate",
+                        "Architecture: Microservice-oriented",
+                        "Other: Global exception handling, OTP email integration, rate limiting"
+                    ],
+                    "engineeringHighlight": "The core engineering challenge is implementing a secure and reusable authentication microservice with OTP verification, JWT token lifecycle management, and global exception handling. RSA key pairs are used for token signing, providing high security, while staging tables for signup and password reset ensure safe verification flows.",
+                    "tables": [
+                        {
+                            "name": "user_auth",
+                            "description": "Stores main signup and login data",
+                            "columns": [
+                                "user_id",
+                                "username",
+                                "name",
+                                "password_hash",
+                                "role",
+                                "account_status",
+                                "created_at",
+                                "updated_at"
+                            ]
+                        },
+                        {
+                            "name": "signup_staging",
+                            "description": "Temporary storage for signup until OTP verification",
+                            "columns": [
+                                "id",
+                                "username",
+                                "name",
+                                "password_hash",
+                                "role",
+                                "otp",
+                                "expiry",
+                                "otp_resend_count"
+                            ]
+                        },
+                        {
+                            "name": "password_staging",
+                            "description": "Temporary storage for forgot/reset password until OTP verification",
+                            "columns": [
+                                "id",
+                                "username",
+                                "otp",
+                                "expiry",
+                                "otp_resend_count"
+                            ]
+                        }
+                    ],
+                    "video": null,
+                    "screenshots": [
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002319/Screenshot_2025-12-06_111158_xryoi3.png",
+                            "name": "Overview of Signup",
+                            "description": "Microservice in use for Signup"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002317/Screenshot_2025-12-06_111151_w7dqtc.png",
+                            "name": "Overview of Login",
+                            "description": "Microservice in use for Login"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002320/Screenshot_2025-12-06_114031_zrpbbo.png",
+                            "name": "Overview of Forgot Password OTP",
+                            "description": "Microservice in use for Forgot Password OTP"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002321/Screenshot_2025-12-06_114038_jpyjuu.png",
+                            "name": "Overview of Forgot Password",
+                            "description": "Microservice in use for Forgot Password"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002324/Screenshot_2025-12-06_115118_mhqxxa.png",
+                            "name": "OTP Email",
+                            "description": "Email Screen shot showign OTP Message"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002323/Screenshot_2025-12-06_114209_a69yl6.png",
+                            "name": "Overview of Reset Password",
+                            "description": "Microservice in use for Reset Password"
+                        }
+                    ],
+                    "apis": [
+                        {
+                            "endpoint": "/auth/ping",
+                            "method": "GET",
+                            "purpose": "Check backend status",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/request-signup",
+                            "method": "POST",
+                            "purpose": "Initiate signup and send OTP to user",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/signup",
+                            "method": "POST",
+                            "purpose": "Validate OTP and create user account",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/signup-resend-otp",
+                            "method": "POST",
+                            "purpose": "Resend signup OTP",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/login",
+                            "method": "POST",
+                            "purpose": "Authenticate user and generate JWT tokens",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/logout",
+                            "method": "POST",
+                            "purpose": "Invalidate refresh token",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/auth/refresh",
+                            "method": "POST",
+                            "purpose": "Refresh access token using valid refresh token",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/auth/request-forgot-password",
+                            "method": "POST",
+                            "purpose": "Initiate forgot password flow and send OTP",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/validate-otp",
+                            "method": "POST",
+                            "purpose": "Validate OTP and provide temporary token for password reset",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/forgot-password",
+                            "method": "POST",
+                            "purpose": "Reset password using OTP token",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/forgotpass-resend-otp",
+                            "method": "POST",
+                            "purpose": "Resend OTP for forgot password",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/request-reset-password",
+                            "method": "POST",
+                            "purpose": "Request password reset for logged-in user",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/auth/reset-password",
+                            "method": "POST",
+                            "purpose": "Reset password for logged-in user using OTP",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/auth/check-user-exists",
+                            "method": "POST",
+                            "purpose": "Check if a user exists in the system",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/auth/check-super-admin-exists",
+                            "method": "POST",
+                            "purpose": "Check if super admin exists",
+                            "auth": "No authentication required"
+                        }
+                    ]
+                },
+                "uploadedBy": "Gautam",
+                "uploadAt": "2025-12-12T21:59:55.853"
+            },
+            "message": "Project with Id: 6930419d44f89de5fbc85ced fetched Successfully.",
+            "status": "0"
+        },
+        "6930419d44f89de5fbc85cf0": {
+            "project": {
+                "id": "6930419d44f89de5fbc85cf0",
+                "title": "Portfolio – Full Stack Showcase",
+                "titleImage": {
+                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002423/Screenshot_2025-12-06_114939_jfmawv.png",
+                    "name": "Portfolio Banner",
+                    "description": "Banner representing Gautam's full stack project's portfolio"
+                },
+                "shortDesc": "A full-stack portfolio platform to showcase my projects, skills, and personal info. Built with Java Spring Boot backend and React + Vite frontend with MongoDB powering it with data.",
+                "links": [
+                    {
+                        "name": "Live Demo",
+                        "url": "https://gautam-singhal.vercel.app/"
+                    },
+                    {
+                        "name": "GitHub – Backend",
+                        "url": "https://github.com/Gautam2001/Portfolio-Project"
+                    },
+                    {
+                        "name": "GitHub – Frontend",
+                        "url": "https://github.com/Gautam2001/Portfolio_Frontend"
+                    }
+                ],
+                "detail": {
+                    "overview": [
+                        "Portfolio is a full-stack web application for showcasing personal projects, skills, and professional information.",
+                        "The backend is powered by Java Spring Boot and MongoDB, handling uploads of project JSON data, 'About Me' content upload thorugh JSON file, and contact us form submissions.",
+                        "Frontend is built with React + Vite, rendering project details, images, tech stacks, and external links in a visually appealing manner."
+                    ],
+                    "keyFeatures": [
+                        "Superadmin-only access to upload 'About Me' and project details",
+                        "JSON-based project upload system for bulk creation and edits",
+                        "Display projects with images, tech stack, description, and links",
+                        "Contact form for Viewers to send messages",
+                        "Ping API to check backend status",
+                        "Project listing, retrieval by ID, and deletion capabilities"
+                    ],
+                    "techStack": [
+                        "Backend: Spring Boot, MongoDB, JWT for superadmin authentication",
+                        "Frontend: React + Vite, Axios for API calls",
+                        "Cloud: Images stored in Cloudinary",
+                        "Architecture: Full-stack Microservice backend with API endpoints consumed by React frontend"
+                    ],
+                    "engineeringHighlight": "This platform provides a structured, backend-driven way to maintain portfolio content entirely via JSON uploads, keeping content management simple and consistent. It integrates MongoDB for flexible data storage and Cloudinary for image hosting, ensuring the frontend dynamically renders project content and media efficiently.",
+                    "tables": [
+                        {
+                            "name": "portfolio_data",
+                            "description": "Stores complete portfolio information including contact, education, experience, personal info, sections, and skills",
+                            "columns": [
+                                "_id",
+                                "_class",
+                                "contact",
+                                "education",
+                                "experience",
+                                "myData",
+                                "sections",
+                                "skills",
+                                "uploadAt",
+                                "uploadedBy"
+                            ]
+                        },
+                        {
+                            "name": "projects_data",
+                            "description": "Stores project metadata, including details, links, descriptions, and uploads",
+                            "columns": [
+                                "_id",
+                                "_class",
+                                "title",
+                                "titleImage",
+                                "shortDesc",
+                                "links",
+                                "detail",
+                                "uploadAt",
+                                "uploadedBy"
+                            ]
+                        },
+                        {
+                            "name": "users",
+                            "description": "Stores basic user information and join date for the Super Admin",
+                            "columns": [
+                                "_id",
+                                "_class",
+                                "username",
+                                "name",
+                                "joinedAt"
+                            ]
+                        },
+                        {
+                            "name": "contact_messages",
+                            "description": "Stores messages submitted through contact forms with user details and timestamps",
+                            "columns": [
+                                "_id",
+                                "_class",
+                                "email",
+                                "joinedAt",
+                                "message",
+                                "name"
+                            ]
+                        }
+                    ],
+                    "video": {
+                        "url": "https://res.cloudinary.com/drdywtfvk/video/upload/v1765014765/Screen_Recording_2025-12-06_151304_xx9omp.mp4",
+                        "name": "Live Demo",
+                        "description": "High-level user interface showing the entire portfolio at a glance"
+                    },
+                    "screenshots": [
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002423/Screenshot_2025-12-06_114939_jfmawv.png",
+                            "name": "About Me Section",
+                            "description": "Frontend view of the personal 'About Me' section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002425/Screenshot_2025-12-06_114947_zri5mh.png",
+                            "name": "Experience Section",
+                            "description": "Frontend view of the personal 'Experience Section' section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002425/Screenshot_2025-12-06_114954_gp3gb9.png",
+                            "name": "Education Section",
+                            "description": "Frontend view of the personal 'Education Section' section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002427/Screenshot_2025-12-06_115002_ogokn8.png",
+                            "name": "Skills Section",
+                            "description": "Frontend view of the personal 'Skills Section' section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765024216/Screenshot_2025-12-06_175744_ihasrt.png",
+                            "name": "Project Section",
+                            "description": "Frontend view of the personal 'Project Section' section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765002426/Screenshot_2025-12-06_115019_jbatyw.png",
+                            "name": "Contact Form Section",
+                            "description": "rontend view of the personal 'Contact Us Section' section"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765024622/Screenshot_2025-12-06_180119_azguxq.png",
+                            "name": "Project Page",
+                            "description": "Project page showcasing the image, title and overview"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765025208/Screenshot_2025-12-06_180127_e6o3xq.png",
+                            "name": "Project Page - 2",
+                            "description": "Project page showcasing key features, tech stack and Engineering Highlights"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765024623/Screenshot_14_khhuuw.png",
+                            "name": "Project Page - 3",
+                            "description": "Project page showcasing demo video and pictures from the website"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765024622/Screenshot_16_bw7hqi.png",
+                            "name": "Project Page - 4",
+                            "description": "Project page showcasing data models aka Tables used in the code"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765025040/Screenshot_19_jvwyej.png",
+                            "name": "Project Page - 5",
+                            "description": "Project page showcasing API endpoints and links to github and live demo"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765024211/Screenshot_2025-12-06_175815_xkxvu2.png",
+                            "name": "Admin Side Login",
+                            "description": "Login for the Admin portal to manage the data for about me and projects"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765024211/Screenshot_2025-12-06_175815_xkxvu2.png",
+                            "name": "Admin Side Login",
+                            "description": "Login for the Admin portal to manage the data for about me and projects"
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765024211/Screenshot_2025-12-06_175831_ry6oup.png",
+                            "name": "Admin Dashboard Page",
+                            "description": "Admin dashboard showing upload for About me and projects along with delete and download the file."
+                        },
+                        {
+                            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1765024211/Screenshot_2025-12-06_175843_gifp4h.png",
+                            "name": "Admin Dashboard Page - 2",
+                            "description": "Admin dashboard showing the list of uploaded projects with option to download and delete"
+                        }
+                    ],
+                    "apis": [
+                        {
+                            "endpoint": "/portfolio/ping",
+                            "method": "GET",
+                            "purpose": "Health check for Portfolio service",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/portfolio/exists",
+                            "method": "POST",
+                            "purpose": "Check if a user exists in the system",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/portfolio/join",
+                            "method": "POST",
+                            "purpose": "Join or register a new user",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/admin-portfolio/aboutMeUpload",
+                            "method": "POST",
+                            "purpose": "Upload the About Me JSON file for the portfolio",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/portfolio/getAboutMe",
+                            "method": "GET",
+                            "purpose": "Retrieve the About Me data",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/admin-portfolio/projectsUpload",
+                            "method": "POST",
+                            "purpose": "Upload portfolio projects JSON file",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/admin-portfolio/downloadProjectById",
+                            "method": "POST",
+                            "purpose": "Download a single project by its ID",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/admin-portfolio/downloadAllProjects",
+                            "method": "GET",
+                            "purpose": "Download all projects",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/portfolio/getProjectById",
+                            "method": "POST",
+                            "purpose": "Retrieve a specific project by its ID",
+                            "auth": "No authentication required"
+                        },
+                        {
+                            "endpoint": "/admin-portfolio/deleteProjectById",
+                            "method": "POST",
+                            "purpose": "Delete a specific project by its ID",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/admin-portfolio/deleteAllProject",
+                            "method": "GET",
+                            "purpose": "Delete all projects",
+                            "auth": "Requires JWT authentication"
+                        },
+                        {
+                            "endpoint": "/portfolio/contactUs",
+                            "method": "POST",
+                            "purpose": "Send a contact message through the portfolio website",
+                            "auth": "No authentication required"
+                        }
+                    ]
+                },
+                "uploadedBy": "Gautam",
+                "uploadAt": "2025-12-12T21:59:55.853"
+            },
+            "message": "Project with Id: 6930419d44f89de5fbc85cf0 fetched Successfully.",
+            "status": "0"
+        }
+    }
+}
