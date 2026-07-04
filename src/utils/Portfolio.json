@@ -6,161 +6,163 @@
         "myData": {
             "name": "Gautam Singhal",
             "image": {
-                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764853785/MyPic_rxffmi.png",
-                "name": "Profile Picture",
-                "description": "Professional headshot"
+            "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764853785/MyPic_rxffmi.png",
+            "name": "Profile Picture",
+            "description": "Professional headshot"
             },
-            "oneLiner": "Designing scalable systems, high-reliability backends, and full-stack applications.",
-            "description": "I’m a backend-focused full-stack developer specializing in Java (Spring Boot) and React.js, with a strong interest in system design and scalable architectures. I build high-performance, fault-tolerant applications that operate reliably under real-world traffic. My experience includes real-time messaging systems, secure authentication microservices, e-commerce platforms, and AI-powered services, with an emphasis on clean architecture, efficient data flows, and strong security boundaries. I continuously strengthen my problem-solving skills through data structures and algorithms, and enjoy reasoning about system trade-offs to deliver production-ready solutions with long-term maintainability."
+            "oneLiner": "Building scalable backend systems, reliable APIs, and modern full-stack applications.",
+            "description": "Backend-focused Software Engineer specializing in Java, Spring Boot, and React.js with experience building scalable enterprise and real-world applications. I enjoy designing reliable backend systems, secure APIs, and distributed architectures. My work spans banking systems, real-time messaging, authentication microservices, e-commerce platforms, and AI-powered services. I focus on clean architecture, performance, maintainability, and solving complex engineering problems through practical system design."
         },
         "experience": [
             {
-                "position": "Software Engineer",
-                "name": "Tata Consultancy Services (TCS)",
-                "year": "Nov 2024 - Present",
-                "description": [
-                    "Modernized core banking modules by migrating legacy services to Spring Boot.",
-                    "Redesigned trade processing workflows, reducing deployment cycles from 2 weeks to 4 days by removing cross-team bottlenecks.",
-                    "Improved processing reliability and data accuracy, reducing operational delays by 30%."
-                ],
-                "logo": {
-                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/TCS_gt6dle.png",
-                    "name": "TCS Logo",
-                    "description": "Company Logo"
-                }
+            "position": "Systems Engineer",
+            "name": "Tata Consultancy Services (TCS)",
+            "year": "Nov 2024 - Present",
+            "description": [
+                "Developed Spring Boot workflows for enterprise banking platforms supporting 20M+ users.",
+                "Designed transaction processing workflows and streamlined backend delivery, reducing deployment cycles.",
+                "Improved backend performance and platform reliability ."
+            ],
+            "logo": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/TCS_gt6dle.png",
+                "name": "TCS Logo",
+                "description": "Company Logo"
+            }
             },
             {
-                "position": "Software Engineer",
-                "name": "BANKIT",
-                "year": "Sept 2024 - Nov 2024",
-                "description": [
-                    "Developed backend services for e-commerce workflows using Spring Boot REST APIs.",
-                    "Implemented secure authentication and authorization using JWT with RSA keys.",
-                    "Optimized migrated modules to improve overall system performance and stability."
-                ],
-                "logo": {
-                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/BankIT_s3i1ra.png",
-                    "name": "BANKIT Logo",
-                    "description": "Company Logo"
-                }
+            "position": "Software Engineer",
+            "name": "BANKIT",
+            "year": "Sept 2024 - Nov 2024",
+            "description": [
+                "Developed backend services for e-commerce and payments platforms using Spring Boot APIs.",
+                "Implemented secure JWT-based authentication for production user workflows.",
+                "Migrated legacy modules to Spring Boot, improving performance by 25%."
+            ],
+            "logo": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/BankIT_s3i1ra.png",
+                "name": "BANKIT Logo",
+                "description": "Company Logo"
+            }
             },
             {
-                "position": "Software Engineer Intern",
-                "name": "BANKIT",
-                "year": "Feb 2024 - Aug 2024",
-                "description": [
-                    "Contributed to core e-commerce features using Spring Boot and React.js.",
-                    "Built responsive UI components for catalog browsing and transaction flows.",
-                    "Assisted in migrating legacy Struts modules to Spring Boot."
-                ],
-                "logo": {
-                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/BankIT_s3i1ra.png",
-                    "name": "BANKIT Logo",
-                    "description": "Company Logo"
-                }
+            "position": "Software Engineer Intern",
+            "name": "BANKIT",
+            "year": "Feb 2024 - Aug 2024",
+            "description": [
+                "Contributed to backend and frontend development using Spring Boot and React.js.",
+                "Developed React.js interfaces for catalog and transaction workflows.",
+                "Assisted in migrating legacy Struts modules to Spring Boot."
+            ],
+            "logo": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/BankIT_s3i1ra.png",
+                "name": "BANKIT Logo",
+                "description": "Company Logo"
+            }
             },
             {
-                "position": "Salesforce Developer Intern",
-                "name": "Salesforce",
-                "year": "Nov 2023 - Dec 2023",
-                "description": [
-                    "Developed Lightning Web Components (LWC) and automated workflows using Apex.",
-                    "Improved UI responsiveness and deployment efficiency using Salesforce CLI."
-                ],
-                "logo": {
-                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/Salesforce_hs0qvm.png",
-                    "name": "Salesforce Logo",
-                    "description": "Company Logo"
-                }
+            "position": "Salesforce Developer Intern",
+            "name": "Salesforce",
+            "year": "Nov 2023 - Dec 2023",
+            "description": [
+                "Built Lightning Web Components (LWC) and automated workflows using Salesforce.",
+                "Improved UI responsiveness and streamlined deployments using Salesforce CLI."
+            ],
+            "logo": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1764163207/Salesforce_hs0qvm.png",
+                "name": "Salesforce Logo",
+                "description": "Company Logo"
+            }
             }
         ],
         "education": [
             {
-                "position": "Bachelor of Technology",
-                "name": "SRM Institute of Science and Technology",
-                "year": "2020 - 2024",
-                "description": [
-                    "Completed B.Tech in Computer Science and Engineering with a CGPA of 9.4/10.",
-                    "Gained strong foundations in algorithms, software engineering, and programming."
-                ],
-                "logo": {
-                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763281234/srm_b2cdy0.png",
-                    "name": "SRM Logo",
-                    "description": "College Logo"
-                }
+            "position": "Bachelor of Technology",
+            "name": "SRM Institute of Science and Technology",
+            "year": "2020 - 2024",
+            "description": [
+                "Completed B.Tech in Computer Science and Engineering with a CGPA of 9.4/10.",
+                "Gained strong foundations in algorithms, software engineering, and programming."
+            ],
+            "logo": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763281234/srm_b2cdy0.png",
+                "name": "SRM Logo",
+                "description": "College Logo"
+            }
             },
             {
-                "position": "Senior Secondary (12th Grade)",
-                "name": "Somerville School, Noida",
-                "year": "2018 - 2020",
-                "description": [
-                    "Studied Physics, Chemistry, Mathematics, and Computer Science.",
-                    "Developed early interest in STEM and problem-solving."
-                ],
-                "logo": {
-                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763280892/logo-new42025_wpg2yq.png",
-                    "name": "Somerville School Logo",
-                    "description": "School Logo"
-                }
+            "position": "Senior Secondary (12th Grade)",
+            "name": "Somerville School, Noida",
+            "year": "2018 - 2020",
+            "description": [
+                "Studied Physics, Chemistry, Mathematics, and Computer Science.",
+                "Developed early interest in STEM and problem-solving."
+            ],
+            "logo": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763280892/logo-new42025_wpg2yq.png",
+                "name": "Somerville School Logo",
+                "description": "School Logo"
+            }
             },
             {
-                "position": "Secondary (10th Grade)",
-                "name": "Somerville School, Noida",
-                "year": "2016 - 2018",
-                "description": [
-                    "Completed secondary education with strong fundamentals in Mathematics and Science."
-                ],
-                "logo": {
-                    "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763280892/logo-new42025_wpg2yq.png",
-                    "name": "Somerville School Logo",
-                    "description": "School Logo"
-                }
+            "position": "Secondary (10th Grade)",
+            "name": "Somerville School, Noida",
+            "year": "2016 - 2018",
+            "description": [
+                "Completed secondary education with strong fundamentals in Mathematics and Science."
+            ],
+            "logo": {
+                "url": "https://res.cloudinary.com/drdywtfvk/image/upload/v1763280892/logo-new42025_wpg2yq.png",
+                "name": "Somerville School Logo",
+                "description": "School Logo"
+            }
             }
         ],
         "skills": [
             "Java",
             "Spring Boot",
-            "RESTful APIs",
+            "Spring Batch",
+            "Spring Security",
             "Microservices",
-            "System Design",
-            "JWT & Authentication",
+            "REST APIs",
+            "Kafka",
             "WebSocket",
-            "Database Design",
+            "JWT & Authentication",
+            "Hibernate & JPA",
             "PostgreSQL",
             "MongoDB",
+            "MySQL",
             "React.js",
+            "System Design",
             "Data Structures & Algorithms",
             "Docker",
             "Git",
             "Jenkins",
             "Postman",
-            "AI/ML Integration",
+            "Database Design",
+            "AWS",
             "Agile",
-            "Render",
-            "Vercel",
-            "Neon",
-            "Cloudinary"
+            "AI Integration"
         ],
         "contact": [
             {
-                "name": "Email",
-                "url": "mailto:singhal.gautam.gs@gmail.com"
+            "name": "Email",
+            "url": "mailto:singhal.gautam.gs@gmail.com"
             },
             {
-                "name": "LinkedIn",
-                "url": "https://www.linkedin.com/in/gautam-singhal-b87813226/"
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/gautam-singhal-b87813226/"
             },
             {
-                "name": "GitHub",
-                "url": "https://github.com/Gautam2001"
+            "name": "GitHub",
+            "url": "https://github.com/Gautam2001"
             },
             {
-                "name": "Phone",
-                "url": "tel:+919911476468"
+            "name": "Phone",
+            "url": "tel:+919911476468"
             },
             {
-                "name": "Resume",
-                "url": "https://drive.google.com/file/d/12H7y1snb15QF0t8YQLjJnmW4k-t-RPuC/view?usp=drive_link"
+            "name": "Resume",
+            "url": "https://drive.google.com/file/d/1jY3ei1vks5khT06vjpj4a2g893gOG1i6/view?usp=drive_link"
             }
         ],
         "sections": [
@@ -172,7 +174,7 @@
             "Contact"
         ],
         "uploadedBy": "Gautam",
-        "uploadAt": "2026-01-03T13:59:36.533"
+        "uploadAt": "2026-01-03T08:29:36.533"
     },
     "projects": [
         {
